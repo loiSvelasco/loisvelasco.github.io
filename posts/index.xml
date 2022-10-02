@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Loi&#39;s Rants（˶′◡‵˶）</title>
+    <link>https://loisvelasco.github.io/posts/</link>
+    <description>Recent content in Posts on Loi&#39;s Rants（˶′◡‵˶）</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Oct 2022 20:17:22 +0800</lastBuildDate><atom:link href="https://loisvelasco.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi!</title>
+      <link>https://loisvelasco.github.io/posts/helloworld/</link>
+      <pubDate>Sun, 02 Oct 2022 20:17:22 +0800</pubDate>
+      
+      <guid>https://loisvelasco.github.io/posts/helloworld/</guid>
+      <description> hello world Link to heading </description>
+    </item>
+    
+  </channel>
+</rss>
