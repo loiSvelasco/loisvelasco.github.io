@@ -108,6 +108,10 @@
             </li>
           
             <li class="navigation-item">
+              <a class="navigation-link" href="/portfolio/">Portfolio</a>
+            </li>
+          
+            <li class="navigation-item">
               <a class="navigation-link" href="/about/">About</a>
             </li>
           
@@ -133,9 +137,30 @@
 
     <h1>Louis Velasco</h1>
 
-<h2>Thoughts, stories, and ideas.╰(▔▽▔)╯ </h2>
+
+<h2 id="subtxt"></h2>
 
 
+<script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+<script>
+    new TypeIt("#subtxt", { 
+    lifeLike: false, 
+    
+})
+.type("thoughts, st", { delay: 500 })
+.move(-11, { delay: 50 }).delete(1)
+.type("T", { delay: 500 })
+.move(null, { to: "END", instant: true, delay: 600 })
+
+.type("ories, anf ", { delay: 500 })
+.move(-1, { delay: 20 }).delete(1)
+.type("d ideas. ", { delay: 500 })
+.pause(200)
+.type("╰(▔▽▔)╯", { delay: 500 })
+.go();
+
+
+</script>
 
     
 <ul>
