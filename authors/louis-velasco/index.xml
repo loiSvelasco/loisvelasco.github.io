@@ -6,7 +6,18 @@
     <description>Recent content in Louis Velasco on Loi&#39;s Rants（˶′◡‵˶）</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Oct 2022 18:05:25 +0800</lastBuildDate><atom:link href="https://loisvelasco.github.io/authors/louis-velasco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Oct 2022 20:39:37 +0800</lastBuildDate><atom:link href="https://loisvelasco.github.io/authors/louis-velasco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go to sleep with no lingering thoughts</title>
+      <link>https://loisvelasco.github.io/posts/sleepbattle/</link>
+      <pubDate>Thu, 06 Oct 2022 20:39:37 +0800</pubDate>
+      
+      <guid>https://loisvelasco.github.io/posts/sleepbattle/</guid>
+      <description>It&amp;rsquo;s a pain. Link to heading Disclaimer:
+I’m writing this while under the influence of alcohol. I’m tired and wanted to get the most of my Friday night.
+Last night, I was doing some work on a raffle-draw system with thousands of participants. It had around ~5k + people. With less than 24 hours left to finish the job and being confident with the work I’ve done (around 70% of the code), I went to sleep, which was a mistake.</description>
+    </item>
+    
     <item>
       <title>Being Misunderstood</title>
       <link>https://loisvelasco.github.io/posts/misunderstood/</link>
