@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://loisvelasco.github.io/authors/</loc>
-    <lastmod>2022-10-06T20:39:37+08:00</lastmod>
+    <loc>https://loisvelasco.github.io/posts/byebyme/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
   </url><url>
-    <loc>https://loisvelasco.github.io/posts/sleepbattle/</loc>
-    <lastmod>2022-10-06T20:39:37+08:00</lastmod>
+    <loc>https://loisvelasco.github.io/authors/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
+  </url><url>
+    <loc>https://loisvelasco.github.io/tags/life/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
   </url><url>
     <loc>https://loisvelasco.github.io/</loc>
-    <lastmod>2022-10-06T20:39:37+08:00</lastmod>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
   </url><url>
     <loc>https://loisvelasco.github.io/authors/louis-velasco/</loc>
-    <lastmod>2022-10-06T20:39:37+08:00</lastmod>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
+  </url><url>
+    <loc>https://loisvelasco.github.io/tags/music/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
   </url><url>
     <loc>https://loisvelasco.github.io/posts/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
+  </url><url>
+    <loc>https://loisvelasco.github.io/tags/</loc>
+    <lastmod>2022-10-08T18:14:29+08:00</lastmod>
+  </url><url>
+    <loc>https://loisvelasco.github.io/posts/sleepbattle/</loc>
     <lastmod>2022-10-06T20:39:37+08:00</lastmod>
   </url><url>
     <loc>https://loisvelasco.github.io/tags/programming/</loc>
@@ -23,13 +35,7 @@
     <loc>https://loisvelasco.github.io/tags/self/</loc>
     <lastmod>2022-10-06T20:39:37+08:00</lastmod>
   </url><url>
-    <loc>https://loisvelasco.github.io/tags/</loc>
-    <lastmod>2022-10-06T20:39:37+08:00</lastmod>
-  </url><url>
     <loc>https://loisvelasco.github.io/posts/misunderstood/</loc>
-    <lastmod>2022-10-04T18:05:25+08:00</lastmod>
-  </url><url>
-    <loc>https://loisvelasco.github.io/tags/life/</loc>
     <lastmod>2022-10-04T18:05:25+08:00</lastmod>
   </url><url>
     <loc>https://loisvelasco.github.io/portfolio/</loc>
