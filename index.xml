@@ -2,71 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Loi&#39;s Rants（˶′◡‵˶）</title>
-    <link>https://loisvelasco.github.io/</link>
+    <link>https://loisvelasco.is-a.dev/</link>
     <description>Recent content on Loi&#39;s Rants（˶′◡‵˶）</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sat, 08 Oct 2022 18:14:29 +0800</lastBuildDate><atom:link href="https://loisvelasco.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Oct 2022 18:14:29 +0800</lastBuildDate><atom:link href="https://loisvelasco.is-a.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An unnecessary analysis of the song bye by me // vaundy</title>
-      <link>https://loisvelasco.github.io/posts/byebyme/</link>
+      <link>https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/</link>
       <pubDate>Sat, 08 Oct 2022 18:14:29 +0800</pubDate>
       
-      <guid>https://loisvelasco.github.io/posts/byebyme/</guid>
-      <description>bye by me, or is it bye bye me? Link to heading The lyrics start with the word Monday, indicating the start of the speaker&amp;rsquo;s day (or in this case, the singer). Followed by question: where are you going? For Tuesday, do you have work today? Until Friday, questions are asked. which gives me the following themes:
+      <guid>https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/</guid>
+      <description>bye by me, or is it bye bye me? # The lyrics start with the word Monday, indicating the start of the speaker&amp;rsquo;s day (or in this case, the singer). Followed by question: where are you going? For Tuesday, do you have work today? Until Friday, questions are asked. which gives me the following themes:
 An elderly gentleman, who suffers from Alzheimer&amp;rsquo;s. A father, suffering from the same as above speaking to her daughter.</description>
     </item>
     
     <item>
       <title>Go to sleep with no lingering thoughts</title>
-      <link>https://loisvelasco.github.io/posts/sleepbattle/</link>
+      <link>https://loisvelasco.is-a.dev/2022/10/go-to-sleep-with-no-lingering-thoughts/</link>
       <pubDate>Thu, 06 Oct 2022 20:39:37 +0800</pubDate>
       
-      <guid>https://loisvelasco.github.io/posts/sleepbattle/</guid>
-      <description>It&amp;rsquo;s a pain. Link to heading Disclaimer:
+      <guid>https://loisvelasco.is-a.dev/2022/10/go-to-sleep-with-no-lingering-thoughts/</guid>
+      <description>It&amp;rsquo;s a pain. # Disclaimer:
 I’m writing this while under the influence of alcohol. I’m tired and wanted to get the most of my Friday night.
 Last night, I was doing some work on a raffle-draw system with thousands of participants. It had around ~5k + people. With less than 24 hours left to finish the job and being confident with the work I’ve done (around 70% of the code), I went to sleep, which was a mistake.</description>
     </item>
     
     <item>
       <title>Being Misunderstood</title>
-      <link>https://loisvelasco.github.io/posts/misunderstood/</link>
+      <link>https://loisvelasco.is-a.dev/2022/10/being-misunderstood/</link>
       <pubDate>Tue, 04 Oct 2022 18:05:25 +0800</pubDate>
       
-      <guid>https://loisvelasco.github.io/posts/misunderstood/</guid>
-      <description>It sucks. Link to heading You won&amp;rsquo;t know and will not have the chance to know what they think of you. You think you might be doing someone a favor, but another person would think otherwise, which makes you feel ashamed. They assume you have other motives than what you portray, and what they come up with is miles apart! What&amp;rsquo;s worse is when there are a lot of them!</description>
-    </item>
-    
-    <item>
-      <title>Portfolio</title>
-      <link>https://loisvelasco.github.io/portfolio/</link>
-      <pubDate>Mon, 03 Oct 2022 18:00:23 +0800</pubDate>
-      
-      <guid>https://loisvelasco.github.io/portfolio/</guid>
-      <description> Here are some of my works Link to heading </description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://loisvelasco.github.io/about/</link>
-      <pubDate>Sun, 02 Oct 2022 21:43:38 +0800</pubDate>
-      
-      <guid>https://loisvelasco.github.io/about/</guid>
-      <description>👋 Hello! Link to heading I&amp;rsquo;m Louis, a weeb, a nerd, a handsome young man! I was summoned into this world 3 years and 2 decades ago, and I&amp;rsquo;m located at one of the countries within the ring of fire, in south east Asia.
-🤟 What I do Link to heading I do magic with my keyboard. ⌨
-I do magic with a pencil. ✏
-I also do magic with my mind!</description>
+      <guid>https://loisvelasco.is-a.dev/2022/10/being-misunderstood/</guid>
+      <description>It sucks. # You won&amp;rsquo;t know and will not have the chance to know what they think of you. You think you might be doing someone a favor, but another person would think otherwise, which makes you feel ashamed. They assume you have other motives than what you portray, and what they come up with is miles apart! What&amp;rsquo;s worse is when there are a lot of them!
+The chance to prove them otherwise may not even come, so what else can I do?</description>
     </item>
     
     <item>
       <title>Hi!</title>
-      <link>https://loisvelasco.github.io/posts/helloworld/</link>
+      <link>https://loisvelasco.is-a.dev/2022/10/hi/</link>
       <pubDate>Sun, 02 Oct 2022 20:17:22 +0800</pubDate>
       
-      <guid>https://loisvelasco.github.io/posts/helloworld/</guid>
-      <description>hello world! Link to heading Blogging functionality of this site is set and done thanks to hugo. All that&amp;rsquo;s left to do is some customizations and to clean up my portfolio layout and display them on a dedicated page.
+      <guid>https://loisvelasco.is-a.dev/2022/10/hi/</guid>
+      <description>hello world! # Blogging functionality of this site is set and done thanks to hugo. All that&amp;rsquo;s left to do is some customizations and to clean up my portfolio layout and display them on a dedicated page.
 I might finish up customizing this theme first though before doing anything. Got a lot to customize.
 Here&amp;rsquo;s to the long road ahead of being a software engineer! 🍻</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://loisvelasco.is-a.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/about/</guid>
+      <description>👋 Hello! # I&amp;rsquo;m Louis, a weeb, a nerd, a handsome young man! I was summoned into this world 4 years and 2 decades ago, and I&amp;rsquo;m located at one of the countries within the ring of fire, in south east Asia.
+🤟 What I do # I do magic with my keyboard. ⌨
+I do magic with a pencil. ✏
+I also do magic with my mind!! 🧠 (kinda.)</description>
+    </item>
+    
+    <item>
+      <title>Assets Used</title>
+      <link>https://loisvelasco.is-a.dev/attributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/attributions/</guid>
+      <description>Powered by Hugo &amp;amp; Blowfish Favicons (Twemoji) by favicon.io Scripts used: TypeItJS</description>
+    </item>
+    
+    <item>
+      <title>Portfolio</title>
+      <link>https://loisvelasco.is-a.dev/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/portfolio/</guid>
+      <description>Here are some of my works # </description>
     </item>
     
   </channel>
