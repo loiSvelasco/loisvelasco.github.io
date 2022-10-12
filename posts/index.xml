@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rants on Loi&#39;s Rants（˶′◡‵˶）</title>
+    <link>https://loisvelasco.is-a.dev/posts/</link>
+    <description>Recent content in Rants on Loi&#39;s Rants（˶′◡‵˶）</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Oct 2022 18:14:29 +0800</lastBuildDate><atom:link href="https://loisvelasco.is-a.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An unnecessary analysis of the song bye by me // vaundy</title>
+      <link>https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/</link>
+      <pubDate>Sat, 08 Oct 2022 18:14:29 +0800</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/</guid>
+      <description>bye by me, or is it bye bye me? # The lyrics start with the word Monday, indicating the start of the speaker&amp;rsquo;s day (or in this case, the singer). Followed by question: where are you going? For Tuesday, do you have work today? Until Friday, questions are asked. which gives me the following themes:
+An elderly gentleman, who suffers from Alzheimer&amp;rsquo;s. A father, suffering from the same as above speaking to her daughter.</description>
+    </item>
+    
+    <item>
+      <title>Go to sleep with no lingering thoughts</title>
+      <link>https://loisvelasco.is-a.dev/2022/10/go-to-sleep-with-no-lingering-thoughts/</link>
+      <pubDate>Thu, 06 Oct 2022 20:39:37 +0800</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/2022/10/go-to-sleep-with-no-lingering-thoughts/</guid>
+      <description>It&amp;rsquo;s a pain. # Disclaimer:
+I’m writing this while under the influence of alcohol. I’m tired and wanted to get the most of my Friday night.
+Last night, I was doing some work on a raffle-draw system with thousands of participants. It had around ~5k + people. With less than 24 hours left to finish the job and being confident with the work I’ve done (around 70% of the code), I went to sleep, which was a mistake.</description>
+    </item>
+    
+    <item>
+      <title>Being Misunderstood</title>
+      <link>https://loisvelasco.is-a.dev/2022/10/being-misunderstood/</link>
+      <pubDate>Tue, 04 Oct 2022 18:05:25 +0800</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/2022/10/being-misunderstood/</guid>
+      <description>It sucks. # You won&amp;rsquo;t know and will not have the chance to know what they think of you. You think you might be doing someone a favor, but another person would think otherwise, which makes you feel ashamed. They assume you have other motives than what you portray, and what they come up with is miles apart! What&amp;rsquo;s worse is when there are a lot of them!
+The chance to prove them otherwise may not even come, so what else can I do?</description>
+    </item>
+    
+    <item>
+      <title>Hi!</title>
+      <link>https://loisvelasco.is-a.dev/2022/10/hi/</link>
+      <pubDate>Sun, 02 Oct 2022 20:17:22 +0800</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/2022/10/hi/</guid>
+      <description>hello world! # Blogging functionality of this site is set and done thanks to hugo. All that&amp;rsquo;s left to do is some customizations and to clean up my portfolio layout and display them on a dedicated page.
+I might finish up customizing this theme first though before doing anything. Got a lot to customize.
+Here&amp;rsquo;s to the long road ahead of being a software engineer! 🍻</description>
+    </item>
+    
+  </channel>
+</rss>
