@@ -59,12 +59,23 @@ Here&amp;rsquo;s to the long road ahead of being a software engineer! 🍻</desc
     </item>
     
     <item>
-      <title>Document tracking System</title>
+      <title>Daily Time Record</title>
+      <link>https://loisvelasco.is-a.dev/portfolio/dtr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://loisvelasco.is-a.dev/portfolio/dtr/</guid>
+      <description>You can view the entire code on my GitHub This project details is still being written and it is still unfinished.
+Enhanced Daily Time Record for SDOIN # This project improves upon the existing generation of CSC Form 48 of the Schools Division of Ilocos Norte.
+Problems identified with the old system # Year errors, the DTR was unable to work properly after the first year on production. Printing of CSC Form 48 is not consistent and often hard to print.</description>
+    </item>
+    
+    <item>
+      <title>Document Tracking System</title>
       <link>https://loisvelasco.is-a.dev/portfolio/dts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://loisvelasco.is-a.dev/portfolio/dts/</guid>
-      <description>You can view the entire code on my GitHub Note: This manual is still being written and it is still unfinished.
+      <description>You can view the entire code on my GitHub This manual is still being written and it is still unfinished.
 Enhanced Document Tracking System for SDOIN # This project aims to improve the current tracking system used in the Schools Division of Ilocos Norte. The eDTS achieves better organization of documents by visualizing your current physical arrayed documents in a user-friendly, digital approach.
 This project also aims to optimize the tracking process, enabling bulk releasing and receiving for units with a lot of documents to work on for improved efficiency.</description>
     </item>
