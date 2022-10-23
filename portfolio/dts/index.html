@@ -33,8 +33,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.831f1d36edebbf1adadd65304036bd44a4b6653cbb26428dcc9fe36d0722b6f4cbf1697b2d303425c2f6907ccb91da7b158b8486f1cc3e803f056026cc91f625.css"
-    integrity="sha512-gx8dNu3rvxra3WUwQDa9RKS2ZTy7JkKNzJ/jbQcitvTL8Wl7LTA0JcL2kHzLkdp7FYuEhvHMPoA/BWAmzJH2JQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.65d4d9ef864b7ac7f0c952f1b8c52daa77e75f5d0fed127580125ce7cfe2621622559e23ccfe924aa40156d6f998163ed70e378c272bf21a9cd894ed3141c865.css"
+    integrity="sha512-ZdTZ74ZLesfwyVLxuMUtqnfnX10P7RJ1gBJc58/iYhYiVZ4jzP6SSqQBVtb5mBY&#43;1w43jCcr8hqc2JTtMUHIZQ==" />
   
   
   <script type="text/javascript" src="/js/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP&#43;DGNKHfuwvY7kxvUdBeoGlODJ6&#43;SfaPg=="></script>
@@ -160,7 +160,6 @@ if (!doNotTrack) {
   
   <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
   
-  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   
   
   
@@ -499,7 +498,11 @@ if (!doNotTrack) {
       <main id="main-content" class="grow">
         
 <article>
-  <header class="max-w-prose">
+  
+  
+  
+  
+  <header id="single_header" class="mt-5 max-w-prose">
     
     <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
@@ -541,7 +544,7 @@ if (!doNotTrack) {
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
       Document Tracking System
     </h1>
-    <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
 
 
@@ -579,16 +582,20 @@ if (!doNotTrack) {
 
   
   
-
-
-
 </div>
 
 
 
 
 <div class="flex flex-row flex-wrap items-center">
-
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   
@@ -598,10 +605,14 @@ if (!doNotTrack) {
 
 
 
+
+
+
     </div>
   </header>
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
-     <div class="order-first px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
+     
+    <div class="order-first sm:max-w-prose lg:ml-auto px-0 lg:order-last lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8">
       <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-10">
         <details open class="mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
   <summary
@@ -610,7 +621,7 @@ if (!doNotTrack) {
     Table of Contents
   </summary>
   <div
-    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600"
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600"
   >
     <nav id="TableOfContents">
   <ul>
@@ -698,6 +709,7 @@ if (!doNotTrack) {
       </div>
       
       <div class="min-w-0 min-h-0 max-w-prose">
+        
         <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="text-primary-400 ltr:pr-3 rtl:pl-3">
     
@@ -908,7 +920,7 @@ Marking multiple documents as accomplished is not supported as this action is ir
             liked_article = true
             document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
             document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
-            document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Remove Like"
+            document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
           }
 
         }
@@ -922,7 +934,7 @@ Marking multiple documents as accomplished is not supported as this action is ir
                 localStorage.setItem(id_likes, true);
                 document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
                 document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
-                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Remove Like"
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
                 if (doc.exists) {
                   db.collection('likes').doc(id_likes).update({
                     likes: firebase.firestore.FieldValue.increment(1)
@@ -950,7 +962,7 @@ Marking multiple documents as accomplished is not supported as this action is ir
                 localStorage.removeItem(id_likes);
                 document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = "none"
                 document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = ""
-                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "Like"
+                document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "\xa0Like"
                 if (doc.exists) {
                   db.collection('likes').doc(id_likes).update({
                     likes: firebase.firestore.FieldValue.increment(-1)
@@ -978,9 +990,22 @@ Marking multiple documents as accomplished is not supported as this action is ir
             remove_like_article(id_likes)
           }
         }
+
+        var header = document.getElementById("single_header")
+        var style = getComputedStyle(header);
+        var hero = document.getElementById('hero')
+        if (hero) {
+          var margin = '-' + (parseInt(style.height) + parseInt(style.marginTop) + parseInt(style.marginBottom) + 20) + 'px'
+          var height = (-parseInt(margin) + parseInt(getComputedStyle(hero).height)) + "px"
+          console.log(height)
+          hero.style["margin-bottom"] = margin;
+          hero.style["height"] = height;
+        }
+
       </script>
   </section>
   <footer class="pt-8 max-w-prose print:hidden">
+
     
   <div class="flex">
     
@@ -1090,6 +1115,12 @@ Marking multiple documents as accomplished is not supported as this action is ir
   </div>
 
 
+
+    
+    
+    
+    
+
     
 
     
@@ -1192,7 +1223,7 @@ Marking multiple documents as accomplished is not supported as this action is ir
   </script>
   
   
-  <script type="text/javascript" src="/js/process.min.1d5a3f4a9583d31668d777478074c0526be93b07cc79f303dce0ecc502226b04072b27e78185a927a25fd226da1de5a457c13cb89c85596512bd500006ee7602.js" integrity="sha512-HVo/SpWD0xZo13dHgHTAUmvpOwfMefMD3ODsxQIiawQHKyfngYWpJ6Jf0ibaHeWkV8E8uJyFWWUSvVAABu52Ag=="></script>
+  <script type="text/javascript" src="/js/process.min.2166d3adac1679c00a75161830ab5725d3efc0e3d3f8c2453fb01d0907948436c25f0f8a7ad824322fa22f3f9c85fd4d0a1d5c856f53b862157da25a57dc3d52.js" integrity="sha512-IWbTrawWecAKdRYYMKtXJdPvwOPT&#43;MJFP7AdCQeUhDbCXw&#43;KetgkMi&#43;iLz&#43;chf1NCh1chW9TuGIVfaJaV9w9Ug=="></script>
   
   
 </footer><div

@@ -93,6 +93,12 @@
   
     
       <url>
+            <loc>https://loisvelasco.is-a.dev/authors/</loc>
+          </url>
+    
+  
+    
+      <url>
             <loc>https://loisvelasco.is-a.dev/categories/</loc>
           </url>
     
@@ -112,6 +118,12 @@
     
       <url>
             <loc>https://loisvelasco.is-a.dev/portfolio/</loc>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://loisvelasco.is-a.dev/series/</loc>
           </url>
     
   
