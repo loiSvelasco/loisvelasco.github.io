@@ -13,7 +13,7 @@
       <pubDate>Thu, 13 Oct 2022 19:59:43 +0800</pubDate>
       
       <guid>https://loisvelasco.is-a.dev/2022/10/a-system-for-teachers/</guid>
-      <description>Is it needed? # A colleague of mine approached me with an idea of a system that tracks all trainings and seminars an employee or staff attended; in this case, teachers. Since I work in the education sector of our government, they handle a lot of personal records; which then gave me the idea of a portal for teachers (and non-teaching staff too, maybe) much like a portal for students where they can see their grades, schedules, balances, etc.</description>
+      <description>Is it needed?&gt; Is it needed? # A colleague of mine approached me with an idea of a system that tracks all trainings and seminars an employee or staff attended; in this case, teachers. Since I work in the education sector of our government, they handle a lot of personal records; which then gave me the idea of a portal for teachers (and non-teaching staff too, maybe) much like a portal for students where they can see their grades, schedules, balances, etc.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://loisvelasco.is-a.dev/2022/10/a-system-for-teachers/featured.jpg" />
     </item>
     
@@ -23,8 +23,8 @@
       <pubDate>Sat, 08 Oct 2022 18:14:29 +0800</pubDate>
       
       <guid>https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/</guid>
-      <description>bye by me, or is it bye bye me? # The lyrics start with the word Monday, indicating the start of the speaker&amp;rsquo;s day (or in this case, the singer). Followed by question: where are you going? For Tuesday, do you have work today? Until Friday, questions are asked. which gives me the following themes:
-An elderly gentleman, who suffers from Alzheimer&amp;rsquo;s. A father, suffering from the same as above speaking to her daughter.</description>
+      <description>bye by me, or is it bye bye me?&gt; bye by me, or is it bye bye me? # The lyrics start with the word Monday, indicating the start of the speaker&amp;rsquo;s day (or in this case, the singer). Followed by question: where are you going? For Tuesday, do you have work today? Until Friday, questions are asked. which gives me the following themes:
+An elderly gentleman, who suffers from Alzheimer&amp;rsquo;s.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://loisvelasco.is-a.dev/2022/10/an-unnecessary-analysis-of-the-song-bye-by-me-/-vaundy/featured.jpg" />
     </item>
     
@@ -34,7 +34,7 @@ An elderly gentleman, who suffers from Alzheimer&amp;rsquo;s. A father, sufferin
       <pubDate>Sun, 02 Oct 2022 20:17:22 +0800</pubDate>
       
       <guid>https://loisvelasco.is-a.dev/2022/10/hi/</guid>
-      <description>hello world! # Blogging functionality of this site is set and done thanks to hugo. All that&amp;rsquo;s left to do is some customizations and to clean up my portfolio layout and display them on a dedicated page.
+      <description>hello world!&gt; hello world! # Blogging functionality of this site is set and done thanks to hugo. All that&amp;rsquo;s left to do is some customizations and to clean up my portfolio layout and display them on a dedicated page.
 I might finish up customizing this theme first though before doing anything. Got a lot to customize.
 Here&amp;rsquo;s to the long road ahead of being a software engineer! 🍻</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://loisvelasco.is-a.dev/2022/10/hi/featured.jpg" />
@@ -57,8 +57,8 @@ Here&amp;rsquo;s to the long road ahead of being a software engineer! 🍻</desc
       
       <guid>https://loisvelasco.is-a.dev/portfolio/dtr/</guid>
       <description>You can view the entire code on my GitHub This project details is still being written and it is still unfinished.
-Enhanced Daily Time Record for SDOIN # This project improves upon the existing generation of CSC Form 48 of the Schools Division of Ilocos Norte.
-Problems identified with the old system # Year errors, the DTR was unable to work properly after the first year on production. Printing of CSC Form 48 is not consistent and often hard to print.</description>
+Enhanced Daily Time Record for SDOIN&gt; Enhanced Daily Time Record for SDOIN # This project improves upon the existing generation of CSC Form 48 of the Schools Division of Ilocos Norte.
+Problems identified with the old system&gt; Problems identified with the old system # Year errors, the DTR was unable to work properly after the first year on production.</description>
       
     </item>
     
@@ -69,8 +69,7 @@ Problems identified with the old system # Year errors, the DTR was unable to wor
       
       <guid>https://loisvelasco.is-a.dev/portfolio/dts/</guid>
       <description>You can view the entire code on my GitHub This manual is still being written and it is still unfinished.
-Enhanced Document Tracking System for SDOIN # This project aims to improve the current tracking system used in the Schools Division of Ilocos Norte. The eDTS achieves better organization of documents by visualizing your current physical arrayed documents in a user-friendly, digital approach.
-This project also aims to optimize the tracking process, enabling bulk releasing and receiving for units with a lot of documents to work on for improved efficiency.</description>
+Enhanced Document Tracking System for SDOIN&gt; Enhanced Document Tracking System for SDOIN # This project aims to improve the current tracking system used in the Schools Division of Ilocos Norte. The eDTS achieves better organization of documents by visualizing your current physical arrayed documents in a user-friendly, digital approach.</description>
       
     </item>
     
