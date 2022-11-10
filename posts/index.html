@@ -37,8 +37,8 @@
   
   
   
-  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.3f42caaf4bfad9e47fec8de9a2d658de4b2c54eb2a3c2eab7c8d3a7bcce94a9811bfb2cf46098afe61fc3f5561a531ccba81fc40e3d99050cea0aafdbf5f7a61.css"
-    integrity="sha512-P0LKr0v62eR/7I3potZY3kssVOsqPC6rfI06e8zpSpgRv7LPRgmK/mH8P1VhpTHMuoH8QOPZkFDOoKr9v196YQ==" />
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.2400a3409cdd3d58a82764e1c3d42c50b4964d974b00fd858ee60a056629bce9ba857ced86a54c288ef58903355f18dee94788d22535615c6e7bb6b25429ecb7.css"
+    integrity="sha512-JACjQJzdPVioJ2Thw9QsULSWTZdLAP2FjuYKBWYpvOm6hXzthqVMKI71iQM1Xxje6UeI0iU1YVxue7ayVCnstw==" />
   
   
   <script type="text/javascript" src="/js/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js" integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP&#43;DGNKHfuwvY7kxvUdBeoGlODJ6&#43;SfaPg=="></script>
@@ -446,14 +446,7 @@ if (!doNotTrack) {
         class="absolute inset-0 opacity-30 dark:opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral dark:to-neutral-800 mix-blend-normal">
     </div>
 </div>
-<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
-<script>
-    window.addEventListener('scroll', function (e) {
-        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-        var background_blur = document.getElementById('background-blur');
-        background_blur.style.opacity = (scroll / 300)
-    });
-</script>
+
 
  <header>
   
@@ -484,6 +477,36 @@ if (!doNotTrack) {
 
   
   <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Rants</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+</div>
+
+
+  </div>
   </header>
   <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
@@ -494,6 +517,121 @@ if (!doNotTrack) {
 
 
     </div>
+    <script>
+
+      var liked_article = false
+
+      if (typeof auth !== 'undefined') {
+        var oid = "views_posts\/_index.md"
+        var id = oid ? oid.replaceAll("/", "-") : oid
+
+        var viewed = localStorage.getItem(id);
+
+        if (!viewed) {
+          auth.signInAnonymously()
+            .then(() => {
+              var docRef = db.collection('views').doc(id)
+              localStorage.setItem(id, true);
+              docRef.get().then((doc) => {
+                if (doc.exists) {
+                  db.collection('views').doc(id).update({
+                    views: firebase.firestore.FieldValue.increment(1)
+                  });
+                } else {
+                  db.collection('views').doc(id).set({ views: 1 })
+                }
+              }).catch((error) => {
+                console.log("Error getting document:", error);
+              });
+            })
+            .catch((error) => {
+              var errorCode = error.code;
+              var errorMessage = error.message;
+              console.error(errorCode, errorMessage)
+            });
+        }
+
+        var oid_likes = "likes_posts\/_index.md"
+        var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
+
+        var liked = localStorage.getItem(id_likes);
+
+        if (liked) {
+          liked_article = true
+          document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+          document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+          document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
+        }
+
+      }
+
+      function like_article(id_likes) {
+        auth.signInAnonymously()
+          .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+              liked_article = true
+              localStorage.setItem(id_likes, true);
+              document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = ""
+              document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = "none"
+              document.querySelectorAll("span[id='likes_button_text']")[0].innerText = ""
+              if (doc.exists) {
+                db.collection('likes').doc(id_likes).update({
+                  likes: firebase.firestore.FieldValue.increment(1)
+                });
+              } else {
+                db.collection('likes').doc(id_likes).set({ likes: 1 })
+              }
+            }).catch((error) => {
+              console.log("Error getting document:", error);
+            });
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+          });
+      }
+
+      function remove_like_article(id_likes) {
+        auth.signInAnonymously()
+          .then(() => {
+            var docRef = db.collection('likes').doc(id_likes)
+            docRef.get().then((doc) => {
+              liked_article = false
+              localStorage.removeItem(id_likes);
+              document.querySelectorAll("span[id='likes_button_heart']")[0].style.display = "none"
+              document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display = ""
+              document.querySelectorAll("span[id='likes_button_text']")[0].innerText = "\xa0Like"
+              if (doc.exists) {
+                db.collection('likes').doc(id_likes).update({
+                  likes: firebase.firestore.FieldValue.increment(-1)
+                });
+              } else {
+                db.collection('likes').doc(id_likes).set({ likes: 0 })
+              }
+            }).catch((error) => {
+              console.log("Error getting document:", error);
+            });
+          })
+          .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.error(errorCode, errorMessage)
+          });
+      }
+
+      function process_article() {
+        var oid_likes = "likes_posts\/_index.md"
+        var id_likes = oid_likes ? oid_likes.replaceAll("/", "-") : oid_likes
+        if (!liked_article) {
+          like_article(id_likes)
+        } else {
+          remove_like_article(id_likes)
+        }
+      }
+
+    </script>
   </section>
   
 
